@@ -8,7 +8,7 @@ variable "name" {
 
 variable "repository" {
   type        = string
-  default     = "https://github.com/opsstation/terraform-azure-subnet"
+  default     = "https://github.com/sohanyadav/terraform-azure-subnet"
   description = "Terraform current module repo"
 
   validation {
@@ -32,8 +32,8 @@ variable "label_order" {
 
 variable "managedby" {
   type        = string
-  default     = "opsstation"
-  description = "ManagedBy, eg 'opsstation'."
+  default     = "example"
+  description = "ManagedBy, eg 'sohanyadav'."
 }
 
 variable "enable" {
